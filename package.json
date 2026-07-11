@@ -1,0 +1,19 @@
+{
+  "name": "pplx-cli",
+  "version": "0.1.0",
+  "description": "Perplexity CLI that saves answers to your Obsidian KB and tracks monthly API budget.",
+  "type": "module",
+  "bin": {
+    "pplx": "./bin/pplx.mjs",
+    "scan-skills": "./bin/scan-skills.mjs"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "start": "node ./bin/pplx.mjs"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5"
+  }
+}
